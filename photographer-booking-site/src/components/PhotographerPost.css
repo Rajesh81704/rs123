@@ -1,0 +1,88 @@
+/* PhotographerPost.css */
+
+.photographer-post {
+  max-width: 800px;
+  margin: 200px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.photographer-post h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.photographer-post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.photographer-post p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+#card {
+  width: 100%;
+  height: 45vh;
+  margin-top: 7rem;
+  background-color: #333;
+  /* background-color: teal; */
+ margin-bottom: 200px;
+
+}
+
+#card img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+#card .profile-image img {
+  width: 118px;
+  height: 118px;
+  border-radius: 51%;
+  position: absolute;
+  left: 45px;
+  top: 27%;
+  opacity: 1;
+}
+
+.profile-info {
+  color: white;
+  top: -204px;
+  position: relative;
+  left: 195px;
+}
+.profile-buttons{
+  display: flex;
+  gap: 20px;
+ 
+}
+.whatsapp-button{
+  width: 126px;
+  height: 41px;
+  background-color: #249588;
+  border: none;
+  border-radius: 6px;
+  margin-top: 12px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+.call-button{
+  width: 126px;
+  height: 41px;
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  margin-top: 12px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
